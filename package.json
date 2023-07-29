@@ -1,0 +1,32 @@
+{
+	"name": "catppuccin-dark-fixed",
+	"displayName": "Catppuccin Dark Fixed",
+	"description": "Theme extened from Birdlinux's theme with some color fixes",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"publisher": "cofeek-codes",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cofeek-codes/catppuccin-dark-fixed.vscode.git"
+	},
+	"keywords": [
+		"catppuccin",
+		"dark",
+		"theme",
+		"vscode"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Catppuccin Dark Fixed",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Catppuccin Dark Fixed-color-theme.json"
+			}
+		]
+	}
+}
